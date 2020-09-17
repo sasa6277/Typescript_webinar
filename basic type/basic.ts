@@ -164,4 +164,24 @@ enum Color {
 let c: Color = Color.Blue;
 
 
+///merge types
+
+interface MyInit {
+  name:string
+}
+interface MyInit {
+  lastname:string
+}
+interface MyInit {
+  phone:number
+}
+
+const myinit:MyInit = {
+  name:"sasa",
+  lastname:"nana",
+  phone:0912000000
+
+}
+
+
 export default {};
